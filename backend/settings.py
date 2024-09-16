@@ -174,12 +174,9 @@ if USE_S3 == True:
 else: 
     
 
-    STATIC_URL = '/static/'
-    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # This is where collectstatic will put the static files
-
-    STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),  # This is where your app's static files are located
-    ]
+    STATIC_URL = 'static/'
+    STATICFILES_DIRS = [ os.path.join(BASE_DIR, 'django/contrib/admin/') ]
+    STATIC_ROOT = BASE_DIR / 'staticfiles'
 
     MEDIA_URL = 'media/'
     MEDIA_ROOT = BASE_DIR / 'media'
