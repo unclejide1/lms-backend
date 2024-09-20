@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-v3=6tihy3#&yn$-k_%s520(&sthuojbpxo=0#+l2y1jwzzj-s5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", ".vercel.app", ".now.sh", "144.126.194.184"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -255,11 +255,11 @@ SIMPLE_JWT = {
 
 
 JAZZMIN_SETTINGS = {
-    'site_title':"Desphixs",
-    'site_header':"Desphixs",
-    'site_brand':"Desphixs",
-    'welcome_sign':"Welcome to Desphixs",
-    'copyright':"Desphixs 2024 Alright Reserved",
+    'site_title':"LSH",
+    'site_header':"LSH",
+    'site_brand':"LSH",
+    'welcome_sign':"Welcome to LSH",
+    'copyright':"LSH 2024 Alright Reserved",
     'show_sidebar':True,
     'show_ui_builder':True,
 
